@@ -626,6 +626,9 @@ a {
   width: 100%;
   background-repeat: no-repeat;
   color: #ffffff;
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.61;
@@ -654,9 +657,6 @@ a {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/tablet/hero-t.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet/hero-t.jpg");
-    text-align: center;
-    padding-top: 118px;
-    padding-bottom: 118px;
   }
 }
 
