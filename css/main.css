@@ -1484,6 +1484,24 @@ footer {
   z-index: 5;
 }
 
+@media screen and (max-width: 480px) {
+  .modal-closed {
+    right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal-closed {
+    top: 70px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-closed {
+    top: -290px;
+  }
+}
+
 .btn-closed {
   position: absolute;
   top: 50%;

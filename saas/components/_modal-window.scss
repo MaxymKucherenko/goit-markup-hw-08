@@ -54,6 +54,15 @@
   margin: 8px;
   cursor: pointer;
   z-index: 5;
+  @media screen and (max-width: 480px) {
+    right: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    top: 70px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: -290px;
+  }
 }
 .btn-closed {
   position: absolute;
