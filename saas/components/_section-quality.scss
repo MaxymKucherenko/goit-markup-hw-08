@@ -1,0 +1,72 @@
+.quality {
+  padding-top: 60px;
+  /*@media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }*/
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+
+  &-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  & p {
+  color: $text-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 10px;
+  /*padding-right: 15px;*/
+  }
+
+  &-block {
+    height: 120px;
+    background-color: $another-bg-color;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-icon {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+  } 
+
+  &-item {
+    @media screen and (max-width: 767px) {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      width: calc((100% - 30px) / 2);
+      &:nth-child(2n + 1) {
+        margin-right: 30px;
+      }
+      &:not(:nth-last-child(-n + 2)) {
+        margin-bottom: 30px;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - 90px) / 4);
+      &:nth-child(-n+3) {
+        margin-right: 30px;
+      }
+    }
+  }
+}

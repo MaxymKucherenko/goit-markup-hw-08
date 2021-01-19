@@ -1,0 +1,36 @@
+.about-section {
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.about {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 94px;
+
+  &-item {
+    margin-right: 30px;
+    position: relative;
+  }
+
+  &-item:nth-last-child(-n + 1) {
+    margin-right: 0px;
+  }
+
+/*подписи для картинок*/
+  &-title {
+    color: $secondary-text-color;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+  }
+}
