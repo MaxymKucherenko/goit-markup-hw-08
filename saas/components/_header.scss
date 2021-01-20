@@ -22,6 +22,13 @@
     margin-left: 0px;
   }
 }
+.icon-menu {
+  fill: $title-text-color;
+}
+
+.icon-cros {
+  fill: $title-text-color;
+}
 
 .menu-button {
   display: inline-flex;
@@ -72,13 +79,13 @@
 .icon-cros:hover,
 .icon-cros:focus {
   fill: $accent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
   }
 
 .icon-menu:hover,
 .icon-menu:focus {
   fill: $accent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .main {
@@ -193,10 +200,6 @@
   font-size: 18px;
   line-height: 1.17;
   display: block;
-  
-
-  /*margin-left: 50px;
-  padding: 32px 0px;*/
 
   &:hover,
   &:focus {
